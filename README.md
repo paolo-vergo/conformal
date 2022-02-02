@@ -1,6 +1,8 @@
 # Conformal Inference R Project
 ## Maintained by Ryan Tibshirani
-### Based on work by Rina Barber, Emmanuel Candes, Max G'Sell, Jing Lei, Aaditya Ramdas, Alessandro Rinaldo, Ryan Tibshirani, Larry Wasserman
+### Based on work by Rina Barber, Emmanuel Candes, Jacopo Diquigiovanni, Matteo Fontana,
+Max G'Sell, Jing Lei, Aaditya Ramdas, Alessandro Rinaldo, Aldo Solari,
+Ryan Tibshirani, Simone Vantini, Paolo Vergottini, Larry Wasserman
 
 This repository contains R software tools for conformal inference. The current
 emphasis is on conformal prediction in regression. We may eventually add tools
@@ -20,9 +22,19 @@ by Tibshirani, Barber, Candes, Ramdas (2019).  This code all relies on the
 
 Relevant work (in reverse chronological order):
 
+-[Multi Split Conformal Prediction](https://arxiv.org/abs/2103.00627) 
+      by Aldo Solari and Vera Djordjilovic,2021.
+-[Predictive Inference with the Jacknife+](https://arxiv.org/abs/1905.02928)
+by Rina Barber,Emanuel Candès, Aaditya Ramdas, Ryan Tibshirani,
+Annals of Statistics, 2021.
+-[A comparison of some conformal quantile regression methods](http://dx.doi.org/10.1002/sta4.261)
+by Matteo Sesia, Emanuel Candés, Stat, 2020.
 - [Conformal Prediction Under Covariate Shift](http://www.stat.cmu.edu/~ryantibs/papers/weightedcp.pdf)
   by Ryan Tibshirani, Rina Barber, Emmanuel Candes, Aaditya Ramdas, Advances in
   Neural Information Processing Systems, 2019.
+-[Conformalized Quantile Regression](https://arxiv.org/abs/1905.03222) 
+by Yaniv Romano and Evan Patterson and Emmanuel J. Candès, 
+Advances in Neural Information Processing Systems,2019.
 - [Distribution-Free Predictive Inference for Regression](http://www.stat.cmu.edu/~ryantibs/papers/conformal.pdf) 
   by Jing Lei, Max G'Sell, Alessandro Rinaldo, Ryan Tibshirani, and Larry
   Wasserman, Journal of the American Statistical Association, 113(523),

@@ -3,18 +3,28 @@ Type: Package
 Title: Tools for conformal inference in regression
 Version: 1.1
 Date: 2019-04-17
-Author: Ryan Tibshirani
-Maintainer: Ryan Tibshirani <ryantibs@scmu.edu>
+Authors@R: c(
+    person("Ryan", "Tibshirani",,"ryantibs@scmu.edu", role = c("aut", "cre")),
+    person("Jacopo", "Diquigiovanni", role = "aut"),
+    person("Matteo", "Fontana", role = "aut"),
+    person("Aldo", "Solari", role = "aut"),
+    person("Simone", "Vantini", role = "aut"),
+    person("Paolo", "Vergottini",role = "aut")
+    )
 Depends:
+    R (>= 4.1.0)
 Suggests:
     glmnet,
     lars,
     plyr,
     randomForest,
     SAM,
-    splines
+    splines,
+    future,
+    future.apply
 Description: A collection of tools for distribution-free inference for
     regression problems using the theory of conformal prediction.
+URL: https://github.com/ryantibs/conformal
 License: GPL-2
 Encoding: UTF-8
 RoxygenNote: 7.1.2
